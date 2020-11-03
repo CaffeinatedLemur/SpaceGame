@@ -77,7 +77,7 @@ public class Waves : MonoBehaviour
         upgradeCanvas.enabled = false;
 
     }
-
+    
 
     public void RandSpawns()
     {
