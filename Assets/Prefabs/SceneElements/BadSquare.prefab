@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 0.7
-  magnitude: 0.2
+  magnitude: 0.5
 --- !u!114 &770489880874922655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,8 +176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0860dbb9619bae4428fae38ae877d8d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 750
-  CurrentHealth: 750
+  MaxHealth: 300
+  CurrentHealth: 300
   DestroyAtZero: 1
   OnDeath:
     m_PersistentCalls:
