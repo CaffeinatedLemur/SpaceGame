@@ -31,8 +31,8 @@ public class Waves : MonoBehaviour
 
     public GameObject[] spawnables;
 
-    public GameObject[] Stars;
-    public Canvas upgradeCanvas;
+    //public GameObject[] Stars;
+   // public Canvas upgradeCanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,13 +49,16 @@ public class Waves : MonoBehaviour
         RandSpawns();
         timer += Time.deltaTime;
 
+        /*
         if (WaveCount % 10 == 0)
         {
             UpgradeMenu();
         }
+        */
 
     }
 
+    /*
     public void UpgradeMenu()
     {
         Time.timeScale = 0;
@@ -77,7 +80,7 @@ public class Waves : MonoBehaviour
         upgradeCanvas.enabled = false;
 
     }
-    
+    */
 
     public void RandSpawns()
     {
